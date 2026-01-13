@@ -19,6 +19,12 @@ public class Learnfile {
 				prop.load(fis);
 				
 				// Step4: Get the value from properties file based on the key
+				String uname1 = prop.getProperty("username");
+				System.out.println(uname1);
+				String pwd1 = prop.getProperty("password");
+				System.out.println(pwd1);
+				String user1 = prop.getProperty("UserName");
+				System.out.println(user1);
 				String uname = prop.getProperty("username");
 				System.out.println(uname);
 				String pwd = prop.getProperty("password");
